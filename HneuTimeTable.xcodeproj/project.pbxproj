@@ -3,10 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4DFBDDACDBF040C1B7CB7B59 /* Pods_HneuTimeTable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6ECFFE91A1D7CD91464D26A7 /* Pods_HneuTimeTable.framework */; };
+		ED299D1B235C5B240048D554 /* SpecialtyViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED299D1A235C5B240048D554 /* SpecialtyViewController.swift */; };
+		ED299D1D235C5E170048D554 /* Specialty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED299D1C235C5E170048D554 /* Specialty.swift */; };
+		ED299D1F235C702C0048D554 /* AddGroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED299D1E235C702C0048D554 /* AddGroupViewController.swift */; };
+		ED299D21235C72D70048D554 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED299D20235C72D70048D554 /* Group.swift */; };
+		ED299D26235C9FF40048D554 /* GroupsEmpty.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED299D25235C9FF40048D554 /* GroupsEmpty.swift */; };
+		ED7F7D752366099E00CCF3F4 /* TransparentSelectableTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F7D742366099E00CCF3F4 /* TransparentSelectableTableViewCell.swift */; };
+		ED7F7D7723660B0400CCF3F4 /* Element.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7F7D7623660B0400CCF3F4 /* Element.swift */; };
+		ED8412362360E61A005A8C83 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8412352360E61A005A8C83 /* ScheduleViewController.swift */; };
+		ED8412392360ED9E005A8C83 /* DayCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8412382360ED9E005A8C83 /* DayCollectionViewCell.swift */; };
+		ED84123F2360F02A005A8C83 /* ScheduleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED84123E2360F02A005A8C83 /* ScheduleTableViewCell.swift */; };
+		ED8412412361078F005A8C83 /* Pair.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED8412402361078F005A8C83 /* Pair.swift */; };
+		EDC2C7AD23773786001ACE9C /* DaysOfWeekHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2C7AC23773786001ACE9C /* DaysOfWeekHandler.swift */; };
+		EDC2C7B023773E5F001ACE9C /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC2C7B223773E5F001ACE9C /* Localization.strings */; };
+		EDC2C7BA23774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDC2C7B823774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld */; };
 		EDE12552235B7D1700FEB5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12551235B7D1700FEB5BF /* AppDelegate.swift */; };
 		EDE12554235B7D1700FEB5BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12553235B7D1700FEB5BF /* SceneDelegate.swift */; };
 		EDE12556235B7D1700FEB5BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12555235B7D1700FEB5BF /* ViewController.swift */; };
@@ -14,9 +29,34 @@
 		EDE1255C235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE1255A235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld */; };
 		EDE1255E235B7D1800FEB5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE1255D235B7D1800FEB5BF /* Assets.xcassets */; };
 		EDE12561235B7D1800FEB5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE1255F235B7D1800FEB5BF /* LaunchScreen.storyboard */; };
+		EDE1256D235B83B800FEB5BF /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1256C235B83B800FEB5BF /* APIRouter.swift */; };
+		EDE1256F235B840800FEB5BF /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1256E235B840800FEB5BF /* APIClient.swift */; };
+		EDE12572235B852300FEB5BF /* APIConstant.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12571235B852300FEB5BF /* APIConstant.swift */; };
+		EDE12574235B8D9F00FEB5BF /* Facultet.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12573235B8D9F00FEB5BF /* Facultet.swift */; };
+		EDE12576235B904200FEB5BF /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12575235B904200FEB5BF /* GroupViewController.swift */; };
+		EDE12578235B905600FEB5BF /* FacultetViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12577235B905600FEB5BF /* FacultetViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6ECFFE91A1D7CD91464D26A7 /* Pods_HneuTimeTable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HneuTimeTable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB0FD11F5B10E676165F614F /* Pods-HneuTimeTable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HneuTimeTable.release.xcconfig"; path = "Target Support Files/Pods-HneuTimeTable/Pods-HneuTimeTable.release.xcconfig"; sourceTree = "<group>"; };
+		ED299D1A235C5B240048D554 /* SpecialtyViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SpecialtyViewController.swift; sourceTree = "<group>"; };
+		ED299D1C235C5E170048D554 /* Specialty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specialty.swift; sourceTree = "<group>"; };
+		ED299D1E235C702C0048D554 /* AddGroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddGroupViewController.swift; sourceTree = "<group>"; };
+		ED299D20235C72D70048D554 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
+		ED299D25235C9FF40048D554 /* GroupsEmpty.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsEmpty.swift; sourceTree = "<group>"; };
+		ED7F7D742366099E00CCF3F4 /* TransparentSelectableTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TransparentSelectableTableViewCell.swift; sourceTree = "<group>"; };
+		ED7F7D7623660B0400CCF3F4 /* Element.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Element.swift; sourceTree = "<group>"; };
+		ED8412352360E61A005A8C83 /* ScheduleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleViewController.swift; sourceTree = "<group>"; };
+		ED8412382360ED9E005A8C83 /* DayCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED84123E2360F02A005A8C83 /* ScheduleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScheduleTableViewCell.swift; sourceTree = "<group>"; };
+		ED8412402361078F005A8C83 /* Pair.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pair.swift; sourceTree = "<group>"; };
+		EDC2C7AC23773786001ACE9C /* DaysOfWeekHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DaysOfWeekHandler.swift; sourceTree = "<group>"; };
+		EDC2C7B123773E5F001ACE9C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localization.strings; sourceTree = "<group>"; };
+		EDC2C7B323773E79001ACE9C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Main.strings; sourceTree = "<group>"; };
+		EDC2C7B423773E79001ACE9C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		EDC2C7B523773E7A001ACE9C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localization.strings; sourceTree = "<group>"; };
+		EDC2C7B923774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KhNEUTimeTableModel.xcdatamodel; sourceTree = "<group>"; };
 		EDE1254E235B7D1700FEB5BF /* HneuTimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HneuTimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE12551235B7D1700FEB5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE12553235B7D1700FEB5BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -26,6 +66,13 @@
 		EDE1255D235B7D1800FEB5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE12560235B7D1800FEB5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE12562235B7D1800FEB5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EDE1256C235B83B800FEB5BF /* APIRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIRouter.swift; sourceTree = "<group>"; };
+		EDE1256E235B840800FEB5BF /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		EDE12571235B852300FEB5BF /* APIConstant.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIConstant.swift; sourceTree = "<group>"; };
+		EDE12573235B8D9F00FEB5BF /* Facultet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Facultet.swift; sourceTree = "<group>"; };
+		EDE12575235B904200FEB5BF /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
+		EDE12577235B905600FEB5BF /* FacultetViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FacultetViewController.swift; sourceTree = "<group>"; };
+		FF7DBA1EDB5C844B3C17E364 /* Pods-HneuTimeTable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HneuTimeTable.debug.xcconfig"; path = "Target Support Files/Pods-HneuTimeTable/Pods-HneuTimeTable.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +80,89 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4DFBDDACDBF040C1B7CB7B59 /* Pods_HneuTimeTable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		B6C7627A26418B4283F21766 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FF7DBA1EDB5C844B3C17E364 /* Pods-HneuTimeTable.debug.xcconfig */,
+				AB0FD11F5B10E676165F614F /* Pods-HneuTimeTable.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C01EBE72CB60664E46966DBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6ECFFE91A1D7CD91464D26A7 /* Pods_HneuTimeTable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		ED299D24235C9FCA0048D554 /* CustomErrors */ = {
+			isa = PBXGroup;
+			children = (
+				ED299D25235C9FF40048D554 /* GroupsEmpty.swift */,
+			);
+			path = CustomErrors;
+			sourceTree = "<group>";
+		};
+		ED8412342360E601005A8C83 /* ScheduleControlles */ = {
+			isa = PBXGroup;
+			children = (
+				ED8412352360E61A005A8C83 /* ScheduleViewController.swift */,
+			);
+			path = ScheduleControlles;
+			sourceTree = "<group>";
+		};
+		ED8412372360ED82005A8C83 /* Cellls */ = {
+			isa = PBXGroup;
+			children = (
+				ED8412382360ED9E005A8C83 /* DayCollectionViewCell.swift */,
+				ED84123E2360F02A005A8C83 /* ScheduleTableViewCell.swift */,
+				ED7F7D742366099E00CCF3F4 /* TransparentSelectableTableViewCell.swift */,
+			);
+			path = Cellls;
+			sourceTree = "<group>";
+		};
+		EDC2C7AB23773760001ACE9C /* Handlers */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2C7AC23773786001ACE9C /* DaysOfWeekHandler.swift */,
+			);
+			path = Handlers;
+			sourceTree = "<group>";
+		};
+		EDC2C7B623773EAA001ACE9C /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		EDC2C7B723774CFD001ACE9C /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				EDC2C7B823774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld */,
+			);
+			path = CoreData;
+			sourceTree = "<group>";
+		};
 		EDE12545235B7D1700FEB5BF = {
 			isa = PBXGroup;
 			children = (
+				EDC2C7B723774CFD001ACE9C /* CoreData */,
+				EDC2C7B623773EAA001ACE9C /* Enums */,
+				EDC2C7B223773E5F001ACE9C /* Localization.strings */,
 				EDE12550235B7D1700FEB5BF /* HneuTimeTable */,
 				EDE1254F235B7D1700FEB5BF /* Products */,
+				B6C7627A26418B4283F21766 /* Pods */,
+				C01EBE72CB60664E46966DBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +177,14 @@
 		EDE12550235B7D1700FEB5BF /* HneuTimeTable */ = {
 			isa = PBXGroup;
 			children = (
+				EDC2C7AB23773760001ACE9C /* Handlers */,
+				ED8412372360ED82005A8C83 /* Cellls */,
+				ED299D24235C9FCA0048D554 /* CustomErrors */,
+				EDE12570235B851100FEB5BF /* Constants */,
+				EDE1256B235B837F00FEB5BF /* Networking */,
+				EDE1256A235B7DED00FEB5BF /* Extensions */,
+				EDE12569235B7DD400FEB5BF /* Models */,
+				EDE12568235B7DC300FEB5BF /* ViewControllers */,
 				EDE12551235B7D1700FEB5BF /* AppDelegate.swift */,
 				EDE12553235B7D1700FEB5BF /* SceneDelegate.swift */,
 				EDE12555235B7D1700FEB5BF /* ViewController.swift */,
@@ -70,6 +197,54 @@
 			path = HneuTimeTable;
 			sourceTree = "<group>";
 		};
+		EDE12568235B7DC300FEB5BF /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				ED8412342360E601005A8C83 /* ScheduleControlles */,
+				EDE12575235B904200FEB5BF /* GroupViewController.swift */,
+				EDE12577235B905600FEB5BF /* FacultetViewController.swift */,
+				ED299D1A235C5B240048D554 /* SpecialtyViewController.swift */,
+				ED299D1E235C702C0048D554 /* AddGroupViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		EDE12569235B7DD400FEB5BF /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EDE12573235B8D9F00FEB5BF /* Facultet.swift */,
+				ED299D1C235C5E170048D554 /* Specialty.swift */,
+				ED299D20235C72D70048D554 /* Group.swift */,
+				ED8412402361078F005A8C83 /* Pair.swift */,
+				ED7F7D7623660B0400CCF3F4 /* Element.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EDE1256A235B7DED00FEB5BF /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EDE1256B235B837F00FEB5BF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				EDE1256C235B83B800FEB5BF /* APIRouter.swift */,
+				EDE1256E235B840800FEB5BF /* APIClient.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		EDE12570235B851100FEB5BF /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EDE12571235B852300FEB5BF /* APIConstant.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -77,9 +252,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EDE12565235B7D1800FEB5BF /* Build configuration list for PBXNativeTarget "HneuTimeTable" */;
 			buildPhases = (
+				D094F836C50C6C67FB50FC2B /* [CP] Check Pods Manifest.lock */,
 				EDE1254A235B7D1700FEB5BF /* Sources */,
 				EDE1254B235B7D1700FEB5BF /* Frameworks */,
 				EDE1254C235B7D1700FEB5BF /* Resources */,
+				82FEE315C01FC12BB045B955 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -112,6 +289,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = EDE12545235B7D1700FEB5BF;
 			productRefGroup = EDE1254F235B7D1700FEB5BF /* Products */;
@@ -129,6 +307,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EDE12561235B7D1800FEB5BF /* LaunchScreen.storyboard in Resources */,
+				EDC2C7B023773E5F001ACE9C /* Localization.strings in Resources */,
 				EDE1255E235B7D1800FEB5BF /* Assets.xcassets in Resources */,
 				EDE12559235B7D1700FEB5BF /* Main.storyboard in Resources */,
 			);
@@ -136,25 +315,96 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		82FEE315C01FC12BB045B955 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HneuTimeTable/Pods-HneuTimeTable-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-HneuTimeTable/Pods-HneuTimeTable-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HneuTimeTable/Pods-HneuTimeTable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D094F836C50C6C67FB50FC2B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-HneuTimeTable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		EDE1254A235B7D1700FEB5BF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EDC2C7AD23773786001ACE9C /* DaysOfWeekHandler.swift in Sources */,
+				ED299D1D235C5E170048D554 /* Specialty.swift in Sources */,
+				EDE12576235B904200FEB5BF /* GroupViewController.swift in Sources */,
 				EDE12556235B7D1700FEB5BF /* ViewController.swift in Sources */,
+				ED8412362360E61A005A8C83 /* ScheduleViewController.swift in Sources */,
+				EDE12574235B8D9F00FEB5BF /* Facultet.swift in Sources */,
+				ED7F7D7723660B0400CCF3F4 /* Element.swift in Sources */,
+				ED299D1B235C5B240048D554 /* SpecialtyViewController.swift in Sources */,
+				EDE1256D235B83B800FEB5BF /* APIRouter.swift in Sources */,
+				ED299D1F235C702C0048D554 /* AddGroupViewController.swift in Sources */,
+				ED84123F2360F02A005A8C83 /* ScheduleTableViewCell.swift in Sources */,
+				ED299D21235C72D70048D554 /* Group.swift in Sources */,
 				EDE1255C235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld in Sources */,
 				EDE12552235B7D1700FEB5BF /* AppDelegate.swift in Sources */,
+				EDC2C7BA23774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld in Sources */,
+				ED7F7D752366099E00CCF3F4 /* TransparentSelectableTableViewCell.swift in Sources */,
+				ED8412412361078F005A8C83 /* Pair.swift in Sources */,
+				ED299D26235C9FF40048D554 /* GroupsEmpty.swift in Sources */,
+				ED8412392360ED9E005A8C83 /* DayCollectionViewCell.swift in Sources */,
+				EDE12578235B905600FEB5BF /* FacultetViewController.swift in Sources */,
 				EDE12554235B7D1700FEB5BF /* SceneDelegate.swift in Sources */,
+				EDE12572235B852300FEB5BF /* APIConstant.swift in Sources */,
+				EDE1256F235B840800FEB5BF /* APIClient.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		EDC2C7B223773E5F001ACE9C /* Localization.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EDC2C7B123773E5F001ACE9C /* en */,
+				EDC2C7B523773E7A001ACE9C /* ru */,
+			);
+			name = Localization.strings;
+			sourceTree = "<group>";
+		};
 		EDE12557235B7D1700FEB5BF /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
 				EDE12558235B7D1700FEB5BF /* Base */,
+				EDC2C7B323773E79001ACE9C /* ru */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -163,6 +413,7 @@
 			isa = PBXVariantGroup;
 			children = (
 				EDE12560235B7D1800FEB5BF /* Base */,
+				EDC2C7B423773E79001ACE9C /* ru */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -174,6 +425,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -234,6 +486,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
@@ -286,11 +539,13 @@
 		};
 		EDE12566235B7D1800FEB5BF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF7DBA1EDB5C844B3C17E364 /* Pods-HneuTimeTable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77UT86MNKK;
 				INFOPLIST_FILE = HneuTimeTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -304,11 +559,13 @@
 		};
 		EDE12567235B7D1800FEB5BF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AB0FD11F5B10E676165F614F /* Pods-HneuTimeTable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 77UT86MNKK;
 				INFOPLIST_FILE = HneuTimeTable/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -344,6 +601,16 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		EDC2C7B823774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				EDC2C7B923774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodel */,
+			);
+			currentVersion = EDC2C7B923774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodel */;
+			path = KhNEUTimeTableModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		EDE1255A235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

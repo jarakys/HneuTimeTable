@@ -1,0 +1,69 @@
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "1EF-lc-jdc"; */
+"1EF-lc-jdc.normalTitle" = "Button";
+
+/* Class = "UILabel"; text = "sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf"; ObjectID = "2SW-ND-S5w"; */
+"2SW-ND-S5w.text" = "sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf";
+
+/* Class = "UITabBarItem"; title = "Расписание"; ObjectID = "30p-hP-KWH"; */
+"30p-hP-KWH.title" = "Расписание";
+
+/* Class = "UITabBarItem"; title = "Преподаватели"; ObjectID = "57z-JB-Ajr"; */
+"57z-JB-Ajr.title" = "Преподаватели";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "7lH-Bw-ykb"; */
+"7lH-Bw-ykb.title" = " ";
+
+/* Class = "UILabel"; text = "Вт"; ObjectID = "7rH-Fb-a2T"; */
+"7rH-Fb-a2T.text" = "Вт";
+
+/* Class = "UINavigationItem"; title = "Факультеты"; ObjectID = "8BQ-jl-7Ld"; */
+"8BQ-jl-7Ld.title" = "Факультеты";
+
+/* Class = "UILabel"; text = "sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf"; ObjectID = "9se-u4-ELz"; */
+"9se-u4-ELz.text" = "sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf";
+
+/* Class = "UINavigationItem"; title = "Настройки"; ObjectID = "FmV-dw-ci5"; */
+"FmV-dw-ci5.title" = "Настройки";
+
+/* Class = "UILabel"; text = "Курс:"; ObjectID = "GzT-zc-zc7"; */
+"GzT-zc-zc7.text" = "Курс:";
+
+/* Class = "UITabBarItem"; title = "Настройки"; ObjectID = "HzT-SE-jkp"; */
+"HzT-SE-jkp.title" = "Настройки";
+
+/* Class = "UINavigationItem"; title = " Группы"; ObjectID = "QbS-QW-aVa"; */
+"QbS-QW-aVa.title" = " Группы";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SJo-06-NGr"; */
+"SJo-06-NGr.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "YRC-Jq-hsG"; */
+"YRC-Jq-hsG.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = " "; ObjectID = "awv-hZ-Vm6"; */
+"awv-hZ-Vm6.title" = " ";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "ddb-hQ-XP0"; */
+"ddb-hQ-XP0.title" = "Item";
+
+/* Class = "UILabel"; text = "1"; ObjectID = "hOT-u0-dm8"; */
+"hOT-u0-dm8.text" = "1";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ly0-0d-XDF"; */
+"ly0-0d-XDF.text" = "Label";
+
+/* Class = "UILabel"; text = "sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf"; ObjectID = "tel-DD-baC"; */
+"tel-DD-baC.text" = "sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf sdfsdfsdfsdf";
+
+/* Class = "UITabBarItem"; title = "Группы"; ObjectID = "uIg-RT-m1D"; */
+"uIg-RT-m1D.title" = "Группы";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "xsr-Yb-AIt"; */
+"xsr-Yb-AIt.title" = "Item";
+
+/* Class = "UILabel"; text = "Day of week"; ObjectID = "ymU-H7-VqO"; */
+"ymU-H7-VqO.text" = "Day of week";
+
+/* Class = "UINavigationItem"; title = "Преподаватели"; ObjectID = "yrF-4b-vEe"; */
+"yrF-4b-vEe.title" = "Преподаватели";
