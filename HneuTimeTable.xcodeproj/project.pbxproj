@@ -22,11 +22,11 @@
 		EDC2C7AD23773786001ACE9C /* DaysOfWeekHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2C7AC23773786001ACE9C /* DaysOfWeekHandler.swift */; };
 		EDC2C7B023773E5F001ACE9C /* Localization.strings in Resources */ = {isa = PBXBuildFile; fileRef = EDC2C7B223773E5F001ACE9C /* Localization.strings */; };
 		EDC2C7BA23774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDC2C7B823774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld */; };
+		EDC2C7C023774FF7001ACE9C /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDC2C7BF23774FF7001ACE9C /* CoreDataManager.swift */; };
 		EDE12552235B7D1700FEB5BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12551235B7D1700FEB5BF /* AppDelegate.swift */; };
 		EDE12554235B7D1700FEB5BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12553235B7D1700FEB5BF /* SceneDelegate.swift */; };
 		EDE12556235B7D1700FEB5BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE12555235B7D1700FEB5BF /* ViewController.swift */; };
 		EDE12559235B7D1700FEB5BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE12557235B7D1700FEB5BF /* Main.storyboard */; };
-		EDE1255C235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EDE1255A235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld */; };
 		EDE1255E235B7D1800FEB5BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EDE1255D235B7D1800FEB5BF /* Assets.xcassets */; };
 		EDE12561235B7D1800FEB5BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EDE1255F235B7D1800FEB5BF /* LaunchScreen.storyboard */; };
 		EDE1256D235B83B800FEB5BF /* APIRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EDE1256C235B83B800FEB5BF /* APIRouter.swift */; };
@@ -57,12 +57,12 @@
 		EDC2C7B423773E79001ACE9C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		EDC2C7B523773E7A001ACE9C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localization.strings; sourceTree = "<group>"; };
 		EDC2C7B923774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = KhNEUTimeTableModel.xcdatamodel; sourceTree = "<group>"; };
+		EDC2C7BF23774FF7001ACE9C /* CoreDataManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataManager.swift; sourceTree = "<group>"; };
 		EDE1254E235B7D1700FEB5BF /* HneuTimeTable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HneuTimeTable.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDE12551235B7D1700FEB5BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EDE12553235B7D1700FEB5BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		EDE12555235B7D1700FEB5BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		EDE12558235B7D1700FEB5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		EDE1255B235B7D1700FEB5BF /* HneuTimeTable.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = HneuTimeTable.xcdatamodel; sourceTree = "<group>"; };
 		EDE1255D235B7D1800FEB5BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EDE12560235B7D1800FEB5BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EDE12562235B7D1800FEB5BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -149,6 +149,7 @@
 			isa = PBXGroup;
 			children = (
 				EDC2C7B823774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld */,
+				EDC2C7BF23774FF7001ACE9C /* CoreDataManager.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -192,7 +193,6 @@
 				EDE1255D235B7D1800FEB5BF /* Assets.xcassets */,
 				EDE1255F235B7D1800FEB5BF /* LaunchScreen.storyboard */,
 				EDE12562235B7D1800FEB5BF /* Info.plist */,
-				EDE1255A235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld */,
 			);
 			path = HneuTimeTable;
 			sourceTree = "<group>";
@@ -374,13 +374,13 @@
 				ED299D1F235C702C0048D554 /* AddGroupViewController.swift in Sources */,
 				ED84123F2360F02A005A8C83 /* ScheduleTableViewCell.swift in Sources */,
 				ED299D21235C72D70048D554 /* Group.swift in Sources */,
-				EDE1255C235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld in Sources */,
 				EDE12552235B7D1700FEB5BF /* AppDelegate.swift in Sources */,
 				EDC2C7BA23774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodeld in Sources */,
 				ED7F7D752366099E00CCF3F4 /* TransparentSelectableTableViewCell.swift in Sources */,
 				ED8412412361078F005A8C83 /* Pair.swift in Sources */,
 				ED299D26235C9FF40048D554 /* GroupsEmpty.swift in Sources */,
 				ED8412392360ED9E005A8C83 /* DayCollectionViewCell.swift in Sources */,
+				EDC2C7C023774FF7001ACE9C /* CoreDataManager.swift in Sources */,
 				EDE12578235B905600FEB5BF /* FacultetViewController.swift in Sources */,
 				EDE12554235B7D1700FEB5BF /* SceneDelegate.swift in Sources */,
 				EDE12572235B852300FEB5BF /* APIConstant.swift in Sources */,
@@ -608,16 +608,6 @@
 			);
 			currentVersion = EDC2C7B923774D18001ACE9C /* KhNEUTimeTableModel.xcdatamodel */;
 			path = KhNEUTimeTableModel.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
-		EDE1255A235B7D1700FEB5BF /* HneuTimeTable.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				EDE1255B235B7D1700FEB5BF /* HneuTimeTable.xcdatamodel */,
-			);
-			currentVersion = EDE1255B235B7D1700FEB5BF /* HneuTimeTable.xcdatamodel */;
-			path = HneuTimeTable.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};

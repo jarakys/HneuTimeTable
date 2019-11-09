@@ -71,7 +71,11 @@ extension AddGroupViewController : UITableViewDelegate {
 
     
     func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
-        groups!.element.remove(at: indexPath.row)
+        let selectedElement = groups!.element.remove(at: indexPath.row)
+        let group = Groups()
+        group.displayName = selectedElement.displayName
+        group.id = Int64(selectedElement.id)
+        CoreDataManager.instance.saveContext()
         groupsTableView.beginUpdates()
         groupsTableView.deleteRows(at: [indexPath], with: .right)
         groupsTableView.endUpdates()
